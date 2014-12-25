@@ -10,7 +10,7 @@
 
 jQuery.fn.viewport = function(install) {
     var focusedKey = 'viewport-focused',
-        handlersKey = 'viewport-hanlders',
+        handlersKey = 'viewport-handlers',
         remove = install === false,
         viewport = $(window);
 
