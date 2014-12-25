@@ -8,6 +8,13 @@
  * http://pixeltango.com
  */
 
+/**
+ * Installs or deinstalls the viewport behavior on the given DOM nodes,
+ * triggering 'viewport:enter' events when the node enters the viewport, and 
+ * 'viewport:leave' when it disappears again.
+ * @param {Boolean} [install=true] controls whether the behavior is to be
+ * installed or deinstalled.
+ */
 jQuery.fn.viewport = function(install) {
     var focusedKey = 'viewport-focused',
         handlersKey = 'viewport-handlers',
